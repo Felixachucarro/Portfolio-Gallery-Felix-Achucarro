@@ -53,7 +53,11 @@ h1{
 }
 
 h4{
-    size: 5mm;
-    font-family:  Arial, sans-serif;
-    color: rgb(53, 53, 53);
+    font-family: "PT Serif",Arial,serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.7em;
+    size: 1mm;
+  
 }
