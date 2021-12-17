@@ -46,10 +46,11 @@ img{
 
 
 h1{
-    font-family:  Arial, sans-serif;
-   size: 25cm; 
-   color: rgb(68, 69, 70);
-
+   font-family: "PT Serif",Arial,serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.7em;
 }
 
 h4{
