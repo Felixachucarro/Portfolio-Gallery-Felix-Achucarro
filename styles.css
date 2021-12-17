@@ -46,12 +46,14 @@ img{
 
 
 h1{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:  Arial, sans-serif;
    size: 25cm; 
    color: rgb(68, 69, 70);
 
 }
 
 h4{
+    size: 5cm;
+    font-family:  Arial, sans-serif;
     color: rgb(53, 53, 53);
 }
