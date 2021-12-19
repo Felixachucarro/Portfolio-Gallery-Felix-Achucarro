@@ -1,3 +1,74 @@
+
+
+header{
+     background-color: #242424;
+     font-family: 'Roboto Slab', serif;
+     font-size:small;
+     justify-content: flex-start;
+    
+}
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+}
+
+header nav .menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 20px; 
+
+}
+
+header nav .menu .brand img{
+    width: 30px;   
+
+}
+
+header nav .menu .enlacess {
+    display: flex;
+    
+
+} 
+
+header nav .menu .enlacess a{
+    padding: 16px 12px;
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 6px solid transparent;
+    transition: border .3s ease; 
+    
+} 
+
+header nav .menu .enlacess a:hover{
+    border-bottom-color: #e84855;
+    
+}
+
+
+header nav .menu .enlacess a.active{
+    border-bottom-color: #e84855;   
+    align-items: flex-end;
+}
+
+
+header nav .menu .fe{
+    color: #e84855;
+}
+
+h1{
+    size: 35cm;
+    color: #e84855;
+}
+
+
+
+
+
 *{
     box-sizing: border-box;
 }
@@ -9,7 +80,7 @@ body{
 
 img{
     width: 100%;
-
+    
 }
 
 .row{
@@ -24,7 +95,7 @@ img{
 }
 
 .column img{
-    margin-top: 5px;
+    margin-top: 2px;
 }
 
 .column img{
@@ -43,21 +114,11 @@ img{
 }  
 
 
+/* titulo */
 
 
-h1{
-   font-family: "PT Serif",Arial,serif;
-    font-weight: 400;
-    font-size: 16px;
-    color: #333;
-    line-height: 1.7em;
-}
-
-h4{
-    font-family: "PT Serif",Arial,serif;
-    font-weight: 400;
-    font-size: 10px;
-    color: #333;
-    line-height: 1.7em;
-    size: 1mm; 
+a{
+    padding: 16px 12px;
+    color:#ca414d
+    
 }
